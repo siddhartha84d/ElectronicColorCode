@@ -23,16 +23,16 @@ namespace ElectronicColorCode.Models
             //significant color codes, mostly used for band A and B.            
             significantNumbers = new Dictionary<string, string>
             {
-                    {"black", "0 black"},
-                    {"brown", "1 brown"},
-                    {"red", "2 red"},
-                    {"orange", "3 orange"},
-                    {"yellow", "4 yellow"},
-                    {"green", "5 green"},
-                    {"blue", "6 blue"},
-                    {"violet", "7 violet"},
-                    {"gray", "8 gray"},
-                    {"white", "9 white"}
+                    {"black", "0 Black"},
+                    {"brown", "1 Brown"},
+                    {"red", "2 Red"},
+                    {"orange", "3 Orange"},
+                    {"yellow", "4 Yellow"},
+                    {"green", "5 Green"},
+                    {"blue", "6 Blue"},
+                    {"violet", "7 Violet"},
+                    {"gray", "8 Gray"},
+                    {"white", "9 White"}
             };
 
             //multiplier numbers for band C.
