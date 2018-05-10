@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model ElectronicColorCode.Models.ColorSelector
+
+<h2>Resistance Calculator</h2>
+<h4>Use this calculator to calculate maximum resistance based on band colors</h4>
+<br />
+
+<div class="container">
+    <div>
+        <div>
+            @Html.Label("BandA", "BandA Color")
+            @Html.DropDownListFor(m => m.significantNumbers, new SelectList(Model.significantNumbers, "Key", "Value"), "select", htmlAttributes: new { @class = "form-control", id = "ddlBandA" })
+        </div>
+        <br />
+        <div>
+            @Html.Label("BandB", "BandB Color")
+            @Html.DropDownListFor(m => m.significantNumbers, new SelectList(Model.significantNumbers, "Key", "Value"), "select", htmlAttributes: new { @class = "form-control", id = "ddlBandB" })
+        </div>
+        <br />
+        <div>
+            @Html.Label("BandC", "Multiplier")
+            @Html.DropDownListFor(m => m.multiplier, new SelectList(Model.multiplier, "Key", "Value"), "select", htmlAttributes: new { @class = "form-control", id = "ddlBandC" })
+        </div>
+        <br />
+        <div>
+            @Html.Label("BandD", "Tolerance")
+            @Html.DropDownListFor(m => m.tolerance, new SelectList(Model.tolerance, "Key", "Value"), "select", htmlAttributes: new { @class = "form-control", id = "ddlBandD" })
+        </div>
+    </div>
+    <br />
+    <div>
+        <input id="btnSubmit" type="Button" value="Submit" onclick="btnSubmitOnClick()" />
+    </div>
+    <br /><br />
+    <div id="divResult" class="resultClass">
+        <div>
+            <div>
+                @Html.Label("lblMaxResistance", "Maximum Resistance")
+            </div>
+            <div>
+                @Html.TextBox("txtMaxResistance", "0", htmlAttributes: new { @class = "form-control" }) Ohms
+            </div>
+        </div>
+    </div>
+    <div id="divError"></div>
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/CodeCalculator.js"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+}

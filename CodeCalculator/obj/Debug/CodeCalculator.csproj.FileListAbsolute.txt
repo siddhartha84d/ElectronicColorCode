@@ -1,0 +1,4 @@
+C:\Users\snuthulapati\Desktop\ElectronicColorCode_VS2015\ElectronicColorCode\CodeCalculator\bin\Debug\CodeCalculator.dll
+C:\Users\snuthulapati\Desktop\ElectronicColorCode_VS2015\ElectronicColorCode\CodeCalculator\bin\Debug\CodeCalculator.pdb
+C:\Users\snuthulapati\Desktop\ElectronicColorCode_VS2015\ElectronicColorCode\CodeCalculator\obj\Debug\CodeCalculator.dll
+C:\Users\snuthulapati\Desktop\ElectronicColorCode_VS2015\ElectronicColorCode\CodeCalculator\obj\Debug\CodeCalculator.pdb
