@@ -1,7 +1,7 @@
 Electronic Color Code
 wiki: https://en.wikipedia.org/wiki/Electronic_color_code
 
-This is a online resistance calculator based on band colors, multiplier and resistance.
+This is a online resistance calculator based on band colors, multiplier and tolegance.
 Currently the calculator only outputs maximum resistance. To execute the project follow these steps.
 
 1. After you download the project, open the solution file. Remember this project is built on framwork 4.5.2.
